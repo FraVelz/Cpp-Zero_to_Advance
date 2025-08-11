@@ -4,7 +4,7 @@
 Estructuras de Datos:
 * Lineales
 * No lineales
-
+Mario Cruz
 ? Lineales ************
 * Arreglos: 
 Coleccion de elementos del mismo tipo almacenados de forma continua en 
@@ -58,13 +58,17 @@ TODO: Arbol de Como se construyen las estructuras de datos en C++
 */ 
 
 
+// class Pila {
+//        // int 
+// }
+
 int main() {
     // * Arreglos
 
     int array[] = {1,2,3,4};
     char array[] = "{1,2,3,4}";
 
-    // * Arreglos
+    // * Pila
 
     return 0;
 }
