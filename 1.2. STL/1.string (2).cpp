@@ -39,6 +39,12 @@ int main() {
     cout << "\n > Vocales: " << vocales << ", Consonantes: "<<consonantes;
 
     // * Ejercicio #2
+    string text_reverse(text.size(), ' ');
 
+    for (int i = text.size()-1; i >= 0; --i) {
+        text_reverse[text.size()-1-i] = text[i];
+    }
+
+    cout<<"\n > Cadena de texto invertida: "<<text_reverse;
     return 0;
 }
