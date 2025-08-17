@@ -31,12 +31,15 @@ caso.
 */
 
 int main() {
-    int t;
-    scanf("%d", &t);
+    int t;            // O(1)
+    scanf("%d", &t);  // O(1)
     
-    while (t--) {
-        int a, b;
-        scanf("%d %d", &a, &b);
+    while (t--) {               // O(n)
+        int a, b;               // O(n)
+        scanf("%d %d", &a, &b); // O(n)
     }
-    return 0;
+
+    return 0;         // O(1)
 }
+
+// Todo el programa es de complejidad de O(n).
