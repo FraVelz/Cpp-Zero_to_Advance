@@ -43,4 +43,4 @@ This is to keep the shortcuts in mind while coding and learn them.
 
 **Author:** Fravelz
 
-**Version:** 1.2
+**Version:** 1.1
