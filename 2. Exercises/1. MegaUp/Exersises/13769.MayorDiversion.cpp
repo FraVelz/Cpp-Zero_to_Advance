@@ -1,26 +1,16 @@
-#include <iostream>
-#include <set>
+#include <cstdio>
+#include <climits>
 
 using namespace std;
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int n; cin>>n;
-    multiset<int> a;
+    int n, minimo=INT_MAX, sum=0; scanf("%d", &n);
 
     while (n--) {
-        int j; cin>>j;
-        a.emplace(j);
+        int j; scanf("%d", &j);
+        sum += j;
+        if (j < minimo) minimo = j;
     }
-
-    int res=0;
-    
-    for (int c : a) res+=c; 
-    res-= *a.begin();
-
-    cout<<res;
-
+    printf("%d", sum-minimo);
     return 0;
 }

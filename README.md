@@ -29,6 +29,12 @@ data types, and some things from C, in C++)
 All the C++ exercises I have done are mostly competitive programming 
 and are organized as follows:
 
+1. OmegaUP 
+2. Codeforces 
+3. Atcoder
+4. Leetcode
+5. Preparacion-ONC
+6. Others
 
 ## 3. Shortcuts
 There are the keyboard shortcuts for:
