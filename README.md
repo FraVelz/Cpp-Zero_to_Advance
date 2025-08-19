@@ -21,10 +21,6 @@ data types, and some things from C, in C++)
 
 3. Advance (Data structures and algorithms).
 
-> Note: From 2.Intermediate to 3.Advanced, these are not essential; 
-> they are only necessary to optimize and understand the language in 
-> more depth, as well as ways of optimizing it and doing things.
-
 ## 2. Exercises
 All the C++ exercises I have done are mostly competitive programming 
 and are organized as follows:
@@ -47,4 +43,6 @@ This is to keep the shortcuts in mind while coding and learn them.
 
 # Information
 
-**Version:** 1.6
+**Update:** 1.6
+
+**Author:** (FV) Fravelz
