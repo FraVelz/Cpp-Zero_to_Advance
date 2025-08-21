@@ -124,3 +124,104 @@
 
 // Si quieres, puedo hacerte **una hoja resumen con TODO sobre `string` y `vector`** separando claramente **métodos propios** y **funciones externas**, así tendrías la referencia completa para C++ competitivo.
 // ¿Quieres que te la arme así?
+
+/*
+Perfecto, ¡vamos con **`vector`** en C++, que es como la lista 
+dinámica en Python!
+
+Te explico de forma clara sus funciones más útiles para **agregar, 
+eliminar, acceder y modificar** elementos.
+
+---
+
+## 🧱 **Declaración de un vector**
+
+```cpp
+#include <vector>
+using namespace std;
+
+vector<int> v;           //Vector vacío
+vector<int> v(5);        //Vector con 5 elementos (inicializados en 0)
+vector<int> v(5, 100);   //Vector con 5 elementos, todos con valor 100
+vector<int> v = {1, 2, 3};//Inicialización directa
+```
+
+---
+
+## ➕ **Agregar elementos**
+
+| Función            | Ejemplo                       | Qué hace                      |
+| ------------------ | ----------------------------- | ----------------------------- |
+| `push_back(x)`     | `v.push_back(5);`             | Agrega un elemento al final   |
+| `insert(pos, val)` | `v.insert(v.begin() + 2, 9);` | Inserta el 9 en la posición 2 |
+
+---
+
+## ➖ **Eliminar elementos**
+
+| Función           | Ejemplo                                  | Qué hace                             |
+| ----------------- | ---------------------------------------- | ------------------------------------ |
+| `pop_back()`      | `v.pop_back();`                          | Elimina el último elemento           |
+| `erase(pos)`      | `v.erase(v.begin() + 1);`                | Elimina el elemento en la posición 1 |
+| `erase(from, to)` | `v.erase(v.begin() + 1, v.begin() + 4);` | Elimina un rango (del 1 al 3)        |
+| `clear()`         | `v.clear();`                             | Elimina todos los elementos          |
+
+---
+
+## 🔁 **Recorrer o acceder a elementos**
+
+```cpp
+for (int i = 0; i < v.size(); i++) {
+    cout << v[i];          // Acceso por índice
+}
+
+for (int x : v) {
+    cout << x;             // Bucle tipo foreach
+}
+```
+
+---
+
+## 🔧 **Otras funciones útiles**
+
+| Función          | Qué hace                                |
+| ---------------- | --------------------------------------- |
+| `v.size()`       | Cantidad de elementos                   |
+| `v.empty()`      | Retorna `true` si está vacío            |
+| `v.front()`      | Primer elemento                         |
+| `v.back()`       | Último elemento                         |
+| `v.resize(n)`    | Cambia el tamaño del vector a `n`       |
+| `v.assign(n, x)` | Rellena con `n` elementos con valor `x` |
+| `v.swap(otro)`   | Intercambia contenido con otro vector   |
+
+---
+
+## 🧠 Ejemplo completo
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    vector<int> v;
+
+    v.push_back(10);
+    v.push_back(20);
+    v.push_back(30);
+
+    v.insert(v.begin() + 1, 15); // 10, 15, 20, 30
+    v.erase(v.begin() + 2);      // 10, 15, 30
+    v.pop_back();                // 10, 15
+
+    for (int x : v)
+        cout << x << " "; // salida: 10 15
+}
+```
+
+---
+
+¿Quieres que te dé ejercicios prácticos con `vector` para que lo 
+domines al 100%?
+
+*/

@@ -8,18 +8,18 @@ This repository is divided into 3 parts:
 ## Course
 The course is divided into the following parts:
 
-1. Basic (Basic syntax and general usage)
+1. Basic (Basic syntax and general usage).
 
-1.1. C-Course (Basic C course, as it is the foundation of the C++ 
-language)
+1.1. C Course (Basic C course, as it forms the basis of the C++ 
+language).
 
-1.2. STL (Standard Template Library, C++ libraries)
+1.2. STL (Standard Template Library, C++ libraries, basic data 
+structures library).
 
-2. Intermediate (these are topics that have not yet been seen, 
-from C++ that are native C, such as pointers, arrays, less generic 
-data types, and some things from C, in C++)
+2. Intermediate (native C++ topics not yet covered, such as pointers, 
+arrays, less generic data types, and some aspects of C, in C++).
 
-3. Advance (Data structures and algorithms).
+3. Advanced (Home-created data structures and algorithms).
 
 ## 2. Exercises
 All the C++ exercises I have done are mostly competitive programming 
@@ -43,6 +43,6 @@ This is to keep the shortcuts in mind while coding and learn them.
 
 # Information
 
-**Update:** 1.6
+**Update:** 1.1.7
 
 **Author:** (FV) Fravelz
