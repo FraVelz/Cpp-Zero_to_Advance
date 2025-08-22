@@ -7,7 +7,7 @@
 // 4. Contar cuántas veces aparece un carácter específico en el string.
 // 5. Eliminar caracteres repetidos consecutivos, dejando solo uno (ej: "aaabb" → "ab").
 // 6. Comparar dos strings sin usar operadores de comparación (<, >, ==), carácter por carácter.
-// 7. Convertir a mayúsculas/minúsculas sin usar funciones como toupper() o tolower().
+// 7. Convertir a mayúsculas/minúsculas (facil :v). 
 // 8. Buscar un substring en un string principal usando solo bucles (for o while).
 // 9. Contar palabras en un string separadas por espacios.
 // 10. Reemplazar todas las apariciones de un carácter por otro (ej: "hola" → "h0la").
@@ -119,13 +119,66 @@ int main() {
 
     // * Ejercicio #5 ************************************************
     string text2 = "aaabbbb";
-    string new2="";
+    string new2="a";
 
-    for (int i=1; i<text2.size()-2; ++i) {
-        if (text2[i] != text2[i+1] || text2[i-1] != text2[i]) new2 += text2[i];
+    for (int i=0; i< text.size()-2; ++i) {
+        if (new2[new2.size()-1] != text2[i]) new2+= text2[i];
     }
 
-    cout<<"\n 5> "<<new2;
+    cout<<"\n 5> Texto sin caracteres repetidos seguidos: "<<new2;
+
+    // * Ejercicio #6 ************************************************
+    string t1="hola", t2="holA";
+    bool band=true;
+
+    for (char e1 : t1) {
+        for (char e2 : t2) if (e1 != e2) band=false;
+    }
+
+    cout<<"\n 6> Los 2 string son iguales: "<<band;
+
+    // * Ejercicio #7 ************************************************
+    string t3 = "mayuscula";
+    string t4 = "MINUSCULAS";
+
+    transform(t3.begin(), t3.end(), t3.begin(), ::toupper);
+    transform(t4.begin(), t4.end(), t4.begin(), ::tolower);
+
+    cout<<"\n 7> Convertir a Mayuscula y minuscula: "<<t3<<'/'<<t4;
+
+    // * Ejercicio #8 ************************************************
+    string cadena = "Hola fravelz, como estas?";
+    string subcadena = "fravelz";
+
+    size_t size=cadena.size(), cont=0, pos;
+    bool encontrado=false;
+    
+    for (size_t i=0; i<size; ++i) {
+        if (cadena[i] == subcadena[cont]) {
+            if (cont==0) pos = i;
+            if (cont+1 == size) encontrado=true;
+            cont++;
+        }
+    }
+
+    cout<<"\n 8> Pos. de la subcadena: "<<pos;
+
+    // * Ejercicio #9 ************************************************
+    string texto_= "este texto tiene varias palabras";
+    size_t palabras=1;
+
+    for (char c : texto_) if (c==' ') ++palabras;
+
+    cout<<"\n 8> Numeros de palabras: "<<palabras;
+    
+    // * Ejercicio #10 ***********************************************
+    string texto_o = "Hola como estas?";
+
+    for (int i=0; i<texto_o.size(); ++i) {
+        if (texto_o[i] == 'o') texto_o[i]='x';
+    }
+
+    cout<<"\n 8> Remplazo de todas las o: "<<texto_o;
 
     return 0;
 }

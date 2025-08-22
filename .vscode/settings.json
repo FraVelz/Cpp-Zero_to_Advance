@@ -3,6 +3,18 @@
         "iostream": "cpp",
         "vector": "cpp",
         "xiosbase": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "array": "cpp",
+        "chrono": "cpp",
+        "deque": "cpp",
+        "format": "cpp",
+        "forward_list": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "regex": "cpp",
+        "xhash": "cpp",
+        "xstring": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp"
     }
 }
