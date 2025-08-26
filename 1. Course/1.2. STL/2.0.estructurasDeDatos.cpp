@@ -10,6 +10,8 @@
 #include <set>          // SET
 #include <map>          // MAP
 
+#include <bitset>       // Arreglo de bits (0-1)
+
 using namespace std;
 
 /*
@@ -181,5 +183,54 @@ int main() {
     * promedio **O(1)**.
     */
 
+
+    // * bitset ******************************************************
+
+    // ? Inicializar
+    bitset<8> ba;     // 8 bits inicializados en 0 -> 00000000
+    bitset<8> bb(5);  // inicializado con valor decimal 5 -> 00000101
+
+    // desde string (se rellena a la izquierda) -> 00001011
+    bitset<8> bc("1011");
+
+    // ? Acceso a los bits
+    cout << bc[1];    // imprime 1 (el bit en posición 1)
+    cout << bc[0];    // imprime 1 (Inidices de Derecha a Izquierda)
+
+    // ? Asignación y consulta
+    bb.set();          // todos los bits a 1
+    bb.set(2);         // poner en 1 el bit índice 2
+    bb.reset();        // todos en 0
+    bb.reset(3);       // poner en 0 el bit índice 3
+    bb.flip();         // invierte todos los bits
+    bb.flip(4);        // invierte solo bit 4
+
+    // ? Conteo
+    bb.count();        // número de bits en 1
+    bb.size();         // número total de bits (N)
+
+    // ? Conversión
+    bb.to_ulong();     // a unsigned long (error si no cabe)
+    bb.to_ullong();    // a unsigned long long (error si no cabe)
+    bb.to_string();    // a string "00101010"
+
+    // ? Comparación
+    bitset<8> x(string("1010"));
+    bitset<8> y(string("1100"));
+    bitset<8> z(string("1010"));
+
+    cout << (x == z);  // true
+    cout << (x == y);  // false
+
+    // ? Operadores bit a bit
+    cout << (x & y) << "\n"; // AND  -> 1000
+    cout << (x | y) << "\n"; // OR   -> 1110
+    cout << (x ^ y) << "\n"; // XOR  -> 0110
+    cout << (~x)     << "\n"; // NOT  -> 0101
+
+    // ? desplazamiento
+    cout << (x << 2) << "\n"; // 1010 << 2 = 1000
+    cout << (y >> 1) << "\n"; // 1100 >> 1 = 0110
+    
     return 0;
 }
