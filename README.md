@@ -43,5 +43,5 @@ This is to keep the shortcuts in mind while coding and learn them.
 
 # Information
 
-**Update:** 0.0.7
+**Update:** 0.0.8
 **Author:** (FV) Fravelz
