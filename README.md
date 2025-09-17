@@ -43,6 +43,6 @@ This is to keep the shortcuts in mind while coding and learn them.
 
 # Information
 
-**Update:** 0.1.0
+**Update:** 0.1.1
 
 **Author:** (FV) Fravelz
