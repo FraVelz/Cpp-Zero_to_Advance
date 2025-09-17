@@ -19,8 +19,5 @@ int main() {
 
     cin >> envio >> minimoGratis >> hojas;
 
-
-
-
     return 0;
 }
