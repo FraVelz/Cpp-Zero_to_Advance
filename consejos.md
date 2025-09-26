@@ -1,3 +1,7 @@
+# Consejos
+
+> **Nota:** Archivo generado con IA.
+
 En programación competitiva, lo más importante para resolver los problemas no es solo saber programar, sino **pensar como matemático y como ingeniero al mismo tiempo**. Te resumo lo clave:
 
 ---
@@ -71,10 +75,6 @@ En competencias avanzadas, los problemas suelen necesitar:
 ---
 
 👉 En resumen: lo más importante es **entender bien el problema, analizar límites, tener un repertorio de algoritmos/matemáticas, y practicar mucho** para unir todo en código rápido y correcto.
-
----
-
-¿Quieres que te arme un **mapa de estudio paso a paso** con los temas más importantes para progresar en programación competitiva hasta nivel internacional (tipo IOI/ICPC)?
 
 ---
 
