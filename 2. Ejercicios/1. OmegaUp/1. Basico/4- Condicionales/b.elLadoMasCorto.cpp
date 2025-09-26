@@ -20,6 +20,6 @@ int main() {
         }
     }
 
-    printf("%lf\n", lado);
+    printf("%lf\n", lado); 
     return 0;
 }

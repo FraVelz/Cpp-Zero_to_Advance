@@ -263,4 +263,6 @@ Los ejercicios de programación competitiva **van de lo más básico (simulació
 
 ---
 
-¿Quieres que te arme un **plan de entrenamiento progresivo con ejercicios típicos de cada categoría** para que vayas practicando como si fuera una preparación de olimpiada/competencia?
+[Ir a la página principal.](https://github.com/FraVelz/Cpp-Zero_to_Advance)
+
+> **Autor:** Fravelz

@@ -75,3 +75,9 @@ En competencias avanzadas, los problemas suelen necesitar:
 ---
 
 ¿Quieres que te arme un **mapa de estudio paso a paso** con los temas más importantes para progresar en programación competitiva hasta nivel internacional (tipo IOI/ICPC)?
+
+---
+
+[Ir a la página principal.](https://github.com/FraVelz/Cpp-Zero_to_Advance)
+
+> **Autor:** Fravelz
