@@ -66,6 +66,7 @@ universidad Antonio Nariño, Nivel Superior.
 ## Información
 
 Aquí también dejo el enlace de consejos si quieres entrar en el mundo de la programación competitiva:
+
 [Ir a consejos.md](./consejos.md)
 
 **Actualización:** 0.1.2

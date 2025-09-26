@@ -167,6 +167,6 @@ Perfecto 🚀. Para programar en **C++ para programación competitiva**, lo idea
 
 ---
 
-[Ir a la página principal.](https://github.com/FraVelz/Cpp-Zero_to_Advance)
+[Ir a la página principal.](https://github.com/FraVelz/Cpp-Zero_to_Advance?tab=readme-ov-file#1-curso)
 
 > **Autor:** Fravelz

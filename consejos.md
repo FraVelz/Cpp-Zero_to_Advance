@@ -78,6 +78,6 @@ En competencias avanzadas, los problemas suelen necesitar:
 
 ---
 
-[Ir a la página principal.](https://github.com/FraVelz/Cpp-Zero_to_Advance)
+[Ir a la página principal.](https://github.com/FraVelz/Cpp-Zero_to_Advance?tab=readme-ov-file#informaci%C3%B3n)
 
 > **Autor:** Fravelz
